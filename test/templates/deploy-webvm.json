@@ -62,7 +62,7 @@
     "variables": {
         "WebDownloadUrl": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/application/ContosoInsuranceIIS.zip",
         "WebScriptUrl": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/scripts/deploy-webvm.ps1",
-        "ScriptFolder": "./labtst/main/test/scripts/",
+        "ScriptFolder": "./",
         "WebScriptFileName": "deploy-webvm.ps1",
         "WebScriptParameters": "[concat(' -zipurl ', variables('WebDownloadUrl'), ' -datasource ', parameters('SQLEndpoint'), '.', parameters('domainToJoin'), ' -password ', parameters('adminPassword'))]",
         "WebVMImagePublisher": "MicrosoftWindowsServer",
