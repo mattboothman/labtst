@@ -49,8 +49,8 @@
         }
     },
     "variables": {
-        "SQLScriptUrl1": "https://cloudworkshop.blob.core.windows.net/building-resilient-iaas-architecture/lab-resources/june-2020-update/scripts/deploy-sqlvm-wrapper.ps1",
-        "SQLScriptUrl2": "https://cloudworkshop.blob.core.windows.net/building-resilient-iaas-architecture/lab-resources/june-2020-update/scripts/deploy-sqlvm-wrapped.ps1",
+        "SQLScriptUrl1": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/scripts/deploy-sqlvm-wrapper.ps1",
+        "SQLScriptUrl2": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/scripts/deploy-sqlvm-wrapped.ps1",
         "ScriptFolder": "./lab-resources/june-2020-update/scripts/",
         "SQLScriptFileName": "deploy-sqlvm-wrapper.ps1",
         "SQLScriptParameters": "[concat(' -user ', parameters('adminUsername'), ' -password ', parameters('adminPassword'), ' -dbsource \"', parameters('SQLDownloadUrl'), '\" -scripturl \"', variables('SQLScriptUrl2'), '\"')]",

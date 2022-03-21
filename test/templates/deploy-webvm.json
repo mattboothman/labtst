@@ -60,8 +60,8 @@
         }
     },
     "variables": {
-        "WebDownloadUrl": "https://cloudworkshop.blob.core.windows.net/building-resilient-iaas-architecture/lab-resources/june-2020-update/application/ContosoInsuranceIIS.zip",
-        "WebScriptUrl": "https://cloudworkshop.blob.core.windows.net/building-resilient-iaas-architecture/lab-resources/june-2020-update/scripts/deploy-webvm.ps1",
+        "WebDownloadUrl": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/application/ContosoInsuranceIIS.zip",
+        "WebScriptUrl": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/scripts/deploy-webvm.ps1",
         "ScriptFolder": "./lab-resources/june-2020-update/scripts/",
         "WebScriptFileName": "deploy-webvm.ps1",
         "WebScriptParameters": "[concat(' -zipurl ', variables('WebDownloadUrl'), ' -datasource ', parameters('SQLEndpoint'), '.', parameters('domainToJoin'), ' -password ', parameters('adminPassword'))]",

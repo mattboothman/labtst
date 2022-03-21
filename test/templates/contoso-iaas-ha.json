@@ -29,7 +29,7 @@
         "AppsSubnetId": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('vnetName'), 'Apps')]",
         "DataSubnetId": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('vnetName'), 'Data')]",
         "ADSubnetId": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('vnetName'), 'Identity')]",
-        "baseUri": "https://cloudworkshop.blob.core.windows.net/building-resilient-iaas-architecture/lab-resources/june-2020-update/"
+        "baseUri": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/"
     },
     "resources": [
         {
