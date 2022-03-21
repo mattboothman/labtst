@@ -67,7 +67,7 @@
         "scriptBase": "https://raw.githubusercontent.com/mattboothman/labtst/main/test/scripts/",
         "scriptFileName": "[if(parameters('newDomain'), 'deploy-advm-new.ps1', 'deploy-advm-existing.ps1')]",
         "scriptUrl": "[concat(variables('scriptBase'), variables('scriptFileName'))]",
-        "scriptFolder": "./lab-resources/june-2020-update/scripts/",
+        "scriptFolder": "./labtst/main/test/scripts/",
         "scriptParameters": "[concat(' -user ', parameters('adminUsername'), ' -domain ', parameters('domainName'), ' -password ', parameters('adminPassword'))]"
     },
     "resources": [
